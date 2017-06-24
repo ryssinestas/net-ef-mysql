@@ -174,3 +174,5 @@ C:\Users\Luiz Guilherme\Documents\GitHub\.net-ef-mysql\Project.Presentation\bin\
 C:\Users\Luiz Guilherme\Documents\GitHub\.net-ef-mysql\Project.Presentation\obj\Debug\Project.Presentation.csprojResolveAssemblyReference.cache
 C:\Users\Luiz Guilherme\Documents\GitHub\.net-ef-mysql\Project.Presentation\obj\Debug\Project.Presentation.dll
 C:\Users\Luiz Guilherme\Documents\GitHub\.net-ef-mysql\Project.Presentation\obj\Debug\Project.Presentation.pdb
+C:\Users\Luiz Guilherme\Documents\GitHub\.net-ef-mysql\Project.Presentation\bin\AutoMapper.dll
+C:\Users\Luiz Guilherme\Documents\GitHub\.net-ef-mysql\Project.Presentation\bin\AutoMapper.xml
