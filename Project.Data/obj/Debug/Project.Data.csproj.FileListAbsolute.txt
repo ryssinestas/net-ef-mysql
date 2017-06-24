@@ -12,3 +12,17 @@ C:\Users\Luiz Guilherme\documents\visual studio 2015\Projects\Project\Project.Da
 C:\Users\Luiz Guilherme\documents\visual studio 2015\Projects\Project\Project.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Luiz Guilherme\documents\visual studio 2015\Projects\Project\Project.Data\obj\Debug\Project.Data.dll
 C:\Users\Luiz Guilherme\documents\visual studio 2015\Projects\Project\Project.Data\obj\Debug\Project.Data.pdb
+\\Mac\Documents\Codes\net-ef-mysql\Project.Data\bin\Debug\Project.Data.dll.config
+\\Mac\Documents\Codes\net-ef-mysql\Project.Data\bin\Debug\Project.Data.dll
+\\Mac\Documents\Codes\net-ef-mysql\Project.Data\bin\Debug\Project.Data.pdb
+\\Mac\Documents\Codes\net-ef-mysql\Project.Data\bin\Debug\EntityFramework.dll
+\\Mac\Documents\Codes\net-ef-mysql\Project.Data\bin\Debug\EntityFramework.SqlServer.dll
+\\Mac\Documents\Codes\net-ef-mysql\Project.Data\bin\Debug\MySql.Data.dll
+\\Mac\Documents\Codes\net-ef-mysql\Project.Data\bin\Debug\MySql.Data.Entity.EF6.dll
+\\Mac\Documents\Codes\net-ef-mysql\Project.Data\bin\Debug\Project.Domain.dll
+\\Mac\Documents\Codes\net-ef-mysql\Project.Data\bin\Debug\Project.Domain.pdb
+\\Mac\Documents\Codes\net-ef-mysql\Project.Data\bin\Debug\EntityFramework.xml
+\\Mac\Documents\Codes\net-ef-mysql\Project.Data\bin\Debug\EntityFramework.SqlServer.xml
+\\Mac\Documents\Codes\net-ef-mysql\Project.Data\obj\Debug\Project.Data.csprojResolveAssemblyReference.cache
+\\Mac\Documents\Codes\net-ef-mysql\Project.Data\obj\Debug\Project.Data.dll
+\\Mac\Documents\Codes\net-ef-mysql\Project.Data\obj\Debug\Project.Data.pdb

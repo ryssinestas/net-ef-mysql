@@ -8,3 +8,13 @@ C:\Users\Luiz Guilherme\documents\visual studio 2015\Projects\Project\Project.Do
 C:\Users\Luiz Guilherme\documents\visual studio 2015\Projects\Project\Project.Domain\obj\Debug\Project.Domain.csprojResolveAssemblyReference.cache
 C:\Users\Luiz Guilherme\documents\visual studio 2015\Projects\Project\Project.Domain\obj\Debug\Project.Domain.dll
 C:\Users\Luiz Guilherme\documents\visual studio 2015\Projects\Project\Project.Domain\obj\Debug\Project.Domain.pdb
+\\Mac\Documents\Codes\net-ef-mysql\Project.Domain\bin\Debug\Project.Domain.dll.config
+\\Mac\Documents\Codes\net-ef-mysql\Project.Domain\bin\Debug\Project.Domain.dll
+\\Mac\Documents\Codes\net-ef-mysql\Project.Domain\bin\Debug\Project.Domain.pdb
+\\Mac\Documents\Codes\net-ef-mysql\Project.Domain\bin\Debug\EntityFramework.dll
+\\Mac\Documents\Codes\net-ef-mysql\Project.Domain\bin\Debug\EntityFramework.SqlServer.dll
+\\Mac\Documents\Codes\net-ef-mysql\Project.Domain\bin\Debug\EntityFramework.xml
+\\Mac\Documents\Codes\net-ef-mysql\Project.Domain\bin\Debug\EntityFramework.SqlServer.xml
+\\Mac\Documents\Codes\net-ef-mysql\Project.Domain\obj\Debug\Project.Domain.csprojResolveAssemblyReference.cache
+\\Mac\Documents\Codes\net-ef-mysql\Project.Domain\obj\Debug\Project.Domain.dll
+\\Mac\Documents\Codes\net-ef-mysql\Project.Domain\obj\Debug\Project.Domain.pdb

@@ -1,5 +1,6 @@
 ﻿using System.Data.Entity.ModelConfiguration;
 using Project.Domain.Entities;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Project.Data.Mappings
 {
@@ -7,8 +8,8 @@ namespace Project.Data.Mappings
     {
         public ProductMapping()
         {
-            this.ToTable("product");
-            this.HasKey(x => x.Id).Property(x => x.Id).HasColumnName("product_id");
+            this.ToTable("products");
+            this.HasKey(x => x.Id).Property(x => x.Id).HasColumnName("product_id").HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
             this.Property(x => x.Name).IsRequired().HasMaxLength(255).HasColumnName("product_name");
             this.Property(x => x.Description).IsRequired().HasMaxLength(255).HasColumnName("product_description");
             this.Property(x => x.Price).IsRequired().HasColumnName("product_price");
