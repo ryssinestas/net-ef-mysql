@@ -20,6 +20,7 @@ namespace Project.Data
         {
             //Inicializa a base de dados
             Database.SetInitializer<BaseContext<T>>(null);
+            base.Configuration.ProxyCreationEnabled = false;
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

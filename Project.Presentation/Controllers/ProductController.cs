@@ -1,7 +1,6 @@
 ﻿using Project.Data;
 using Project.Data.Repositories;
 using Project.Domain.Entities;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,10 +11,12 @@ namespace Project.Presentation.Controllers
     public class ProductController : Controller
     {
         private IUnitOfWork<Product> UowProduct { get; set; }
+        private IUnitOfWork<Barcode> UowBarcode { get; set; }
 
         public ProductController()
         {
             this.UowProduct = new ProductRepository();
+            this.UowBarcode = new BarcodeRepository();
         }
 
         // GET: Product
@@ -29,7 +30,10 @@ namespace Project.Presentation.Controllers
         // GET: Product/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            Product product = UowProduct.GetById(id);
+            product.BarCodeList = UowBarcode.GetAll().Where(x => x.ProductId == id).ToList();
+
+            return View(product);
         }
 
         // GET: Product/Create
@@ -57,7 +61,9 @@ namespace Project.Presentation.Controllers
         // GET: Product/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            Product product = UowProduct.GetById(id);
+
+            return View(product);
         }
 
         // POST: Product/Edit/5
@@ -79,7 +85,8 @@ namespace Project.Presentation.Controllers
         // GET: Product/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            Product product = UowProduct.GetById(id);
+            return View(product);
         }
 
         // POST: Product/Delete/5
@@ -88,7 +95,8 @@ namespace Project.Presentation.Controllers
         {
             try
             {
-                // TODO: Add delete logic here
+                Product product = UowProduct.GetById(id);
+                UowProduct.Delete(product);
 
                 return RedirectToAction("Index");
             }

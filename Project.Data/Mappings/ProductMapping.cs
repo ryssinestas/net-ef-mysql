@@ -9,10 +9,29 @@ namespace Project.Data.Mappings
         public ProductMapping()
         {
             this.ToTable("products");
-            this.HasKey(x => x.Id).Property(x => x.Id).HasColumnName("product_id").HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
-            this.Property(x => x.Name).IsRequired().HasMaxLength(255).HasColumnName("product_name");
-            this.Property(x => x.Description).IsRequired().HasMaxLength(255).HasColumnName("product_description");
-            this.Property(x => x.Price).IsRequired().HasColumnName("product_price");
+
+            this.HasKey(x => x.Id)
+                .Property(x => x.Id)
+                .HasColumnName("product_id")
+                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+
+            this.Property(x => x.Name)
+                .IsRequired()
+                .HasMaxLength(255)
+                .HasColumnName("product_name");
+
+            this.Property(x => x.Description)
+                .IsRequired()
+                .HasMaxLength(255)
+                .HasColumnName("product_description");
+
+            this.Property(x => x.Price)
+                .IsRequired().
+                HasColumnName("product_price");
+
+            this.HasMany(u => u.BarCodeList)
+                .WithRequired()
+                .HasForeignKey(h => h.ProductId);
         }
     }
 }

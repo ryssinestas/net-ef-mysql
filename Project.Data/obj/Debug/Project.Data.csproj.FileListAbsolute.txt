@@ -26,3 +26,17 @@ C:\Users\Luiz Guilherme\documents\visual studio 2015\Projects\Project\Project.Da
 \\Mac\Documents\Codes\net-ef-mysql\Project.Data\obj\Debug\Project.Data.csprojResolveAssemblyReference.cache
 \\Mac\Documents\Codes\net-ef-mysql\Project.Data\obj\Debug\Project.Data.dll
 \\Mac\Documents\Codes\net-ef-mysql\Project.Data\obj\Debug\Project.Data.pdb
+C:\Users\Luiz Guilherme\Documents\GitHub\net-ef-mysql\Project.Data\bin\Debug\Project.Data.dll.config
+C:\Users\Luiz Guilherme\Documents\GitHub\net-ef-mysql\Project.Data\bin\Debug\Project.Data.dll
+C:\Users\Luiz Guilherme\Documents\GitHub\net-ef-mysql\Project.Data\bin\Debug\Project.Data.pdb
+C:\Users\Luiz Guilherme\Documents\GitHub\net-ef-mysql\Project.Data\bin\Debug\EntityFramework.dll
+C:\Users\Luiz Guilherme\Documents\GitHub\net-ef-mysql\Project.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Luiz Guilherme\Documents\GitHub\net-ef-mysql\Project.Data\bin\Debug\MySql.Data.dll
+C:\Users\Luiz Guilherme\Documents\GitHub\net-ef-mysql\Project.Data\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Luiz Guilherme\Documents\GitHub\net-ef-mysql\Project.Data\bin\Debug\Project.Domain.dll
+C:\Users\Luiz Guilherme\Documents\GitHub\net-ef-mysql\Project.Data\bin\Debug\Project.Domain.pdb
+C:\Users\Luiz Guilherme\Documents\GitHub\net-ef-mysql\Project.Data\bin\Debug\EntityFramework.xml
+C:\Users\Luiz Guilherme\Documents\GitHub\net-ef-mysql\Project.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Luiz Guilherme\Documents\GitHub\net-ef-mysql\Project.Data\obj\Debug\Project.Data.csprojResolveAssemblyReference.cache
+C:\Users\Luiz Guilherme\Documents\GitHub\net-ef-mysql\Project.Data\obj\Debug\Project.Data.dll
+C:\Users\Luiz Guilherme\Documents\GitHub\net-ef-mysql\Project.Data\obj\Debug\Project.Data.pdb
